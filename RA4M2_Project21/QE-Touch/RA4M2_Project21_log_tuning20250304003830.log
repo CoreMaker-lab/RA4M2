@@ -1,0 +1,67 @@
+***** 2025/03/04 00:38:30 *****
+QE Version                                        :4.1.0.v20250123-0520
+Project Path                                      :C:\Users\a8456\e2_studio\workspace_5.8\RA4M2_Project21
+Configuration File                                :RA4M2_Project21
+IDE                                               :e2 studio with Emulator
+Emulator                                          :
+MCU                                               :RA4M2 R7FA4M2AD3CFL
+<< METHOD 0 >>
+[Button(self) 0]
+TS                                                : TS02,
+[Button(self) 1]
+TS                                                : TS05,
+
+<<<< Tuning Type : Normal >>>>
+System Clock Frequency (MHz)                      :6.000
+PCLKB Frequency (MHz)                             :3.000
+CTSU Operating Frequency (MHz)                    :3.000
+Operating Voltage (V)                             :3.300
+
+---------- Phase1 ----------
+<< METHOD 0 >>
+[TS02]
+Measurement Value                                 : 10507
+Resistance Value (ohm)                            : 560
+Parasitic Capacitance (pF)                        : 33.287678
+Sensor Drive Pulse Frequency (MHz)                : 0.75
+
+[TS05]
+Measurement Value                                 : 11992
+Resistance Value (ohm)                            : 560
+Parasitic Capacitance (pF)                        : 38.297527
+Sensor Drive Pulse Frequency (MHz)                : 0.75
+
+
+---------- Phase2 ----------
+<< METHOD 0 >>
+[TS02]
+Sensor Drive Pulse Frequency (MHz)                : 0.75
+CTSUSNUM                                          : 1
+CTSUSSDIV                                         : 5
+CTSUSDPA                                          : 1
+CTSUSO                                            : 82
+
+[TS05]
+Sensor Drive Pulse Frequency (MHz)                : 0.75
+CTSUSNUM                                          : 1
+CTSUSSDIV                                         : 5
+CTSUSDPA                                          : 1
+CTSUSO                                            : 110
+
+
+---------- Phase3 ----------
+<< METHOD 0 >>
+[Button(self) 0]
+  << TS02 >>
+  Measurement Value (Off)                         : 20593
+  Measurement Value (On)                          : 55194
+  Threshold                                       : 20760
+  Hysteresis                                      : 1038
+
+[Button(self) 1]
+  << TS05 >>
+  Measurement Value (Off)                         : 20568
+  Measurement Value (On)                          : 55194
+  Threshold                                       : 20775
+  Hysteresis                                      : 1038
+
