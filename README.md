@@ -220,9 +220,9 @@ In embedded systems, the ADC (Analog-to-Digital Converter) is a crucial componen
 
 Building on the previous article, this article explores how to configure the ADC module for multi-channel scanning and collect data from different analog input signals.
 
-- **RA2E1_project18**:e2studio开发RA2E1(18)----看门狗WDT
-- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/146028292](https://coremaker.blog.csdn.net/article/details/146028292)
-- **Video**:[https://www.bilibili.com/video/BV1uG9hYyEQe/](https://www.bilibili.com/video/BV1uG9hYyEQe/)
+- **RA2E1_project18**:e2studio开发RA4M2(18)----看门狗WDT
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/146028540](https://coremaker.blog.csdn.net/article/details/146028540)
+- **Video**:[https://www.bilibili.com/video/BV1UL9hYrEkV/](https://www.bilibili.com/video/BV1UL9hYrEkV/)
 
 
 本文主要阐述了如何借助e2studio工具对瑞萨独立看门狗WDT进行配置设置，同时设置RTC时钟产生每秒的周期性中断，并通过串口输出观察独立看门狗IWDT的计数情况。主要介绍 RA 系列 MCU 的看门狗定时器（WDT），包括其功能、配置方法、API 说明及示例代码。看门狗定时器主要用于检测系统异常，防止程序陷入死循环或卡死，从而 提高系统稳定性。
@@ -235,9 +235,9 @@ The article primarily introduces the Watchdog Timer (WDT) in the RA series MCUs,
 The Watchdog Timer (WDT) is an overflow protection mechanism that triggers a system reset or interrupt when the MCU fails to refresh (feed the watchdog) within a specified time, ensuring the system can recover and continue operation.
 
 
-- **RA2E1_project19**:e2studio开发RA2E1(19)----独立看门狗IWDT
-- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/146028846](https://coremaker.blog.csdn.net/article/details/146028846)
-- **Video**:[https://www.bilibili.com/video/BV1AS9aYMEXt/](https://www.bilibili.com/video/BV1AS9aYMEXt/)
+- **RA2E1_project19**:e2studio开发RA4M2(19)----独立看门狗IWDT
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/146029008](https://coremaker.blog.csdn.net/article/details/146029008)
+- **Video**:[https://www.bilibili.com/video/BV1Ny9aYrE8E/](https://www.bilibili.com/video/BV1Ny9aYrE8E/)
 
 本文主要阐述了如何借助e2studio工具对瑞萨独立看门狗IWDT进行配置设置，同时设置RTC时钟产生每秒的周期性中断，并通过串口输出观察独立看门狗IWDT的计数情况。
 配置看门狗定时器以提高系统稳定性，防止系统长时间处于死循环。
