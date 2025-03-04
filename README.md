@@ -248,9 +248,9 @@ This article explains how to configure the Independent Watchdog Timer (IWDT) on 
 Configuring the watchdog timer helps enhance system stability by preventing the system from getting stuck in infinite loops for an extended period.
 
 
-- **RA2E1_project20**:e2studio开发RA2E1(20)----电容触摸配置(1)
-- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/146029174](https://coremaker.blog.csdn.net/article/details/146029174)
-- **Video**:[https://www.bilibili.com/video/BV17e96YnE6d/](https://www.bilibili.com/video/BV17e96YnE6d/)
+- **RA2E1_project20**:e2studio开发RA4M2(20)----电容触摸配置(1)
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/146030807](https://coremaker.blog.csdn.net/article/details/146030807)
+- **Video**:[https://www.bilibili.com/video/BV1b396YKEbg](https://www.bilibili.com/video/BV1b396YKEbg)
 
 
 这篇文档将创建一个使用 e2 studio 集成 QE 的电容式触摸应用示例，通过触摸按键进行LED点亮。
@@ -258,9 +258,9 @@ Configuring the watchdog timer helps enhance system stability by preventing the 
 This document will demonstrate how to create a capacitive touch application using e² studio integrated with QE. The example will implement touch key control to toggle an LED.
 
 
-- **RA2E1_project21**:e2studio开发RA2E1(21)----电容触摸配置(2)
-- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/146029344](https://coremaker.blog.csdn.net/article/details/146029344)
-- **Video**:[https://www.bilibili.com/video/BV1Ht96YsENU](https://www.bilibili.com/video/BV1Ht96YsENU)
+- **RA2E1_project21**:e2studio开发RA4M2(21)----电容触摸配置(2)
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/146030908](https://coremaker.blog.csdn.net/article/details/146030908)
+- **Video**:[https://www.bilibili.com/video/BV1tG96YvEDp/](https://www.bilibili.com/video/BV1tG96YvEDp/)
 
 这篇文档将在上篇文章基础上修改电容触摸配置。
 
